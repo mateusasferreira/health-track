@@ -1,5 +1,20 @@
 :root {
     --vermelho-destaque: #FF3838;
+    --verde-destaque: #009C00;
+    --bg-cinza: #EBE8E8;
+    --shadow: 2px 1px 5px 1px rgba(163, 148, 148, .5);
 
 }
 
+.app-header {
+    padding: 30px;
+    width: 100vw;
+    height: 120px;
+    border-bottom: 2px solid rgba(164, 164, 164, 0.3);
+}
+
+.app-header-title {    
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}

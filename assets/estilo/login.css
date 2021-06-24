@@ -1,16 +1,5 @@
 
-.login-header {
-    padding: 30px;
-    width: 100vw;
-    height: 120px;
-    border-bottom: 2px solid rgba(164, 164, 164, 0.3);
-}
 
-.login-header-title {    
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-}
 .custom-form {
     width: 100%;
     max-width: 400px;
