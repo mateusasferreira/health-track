@@ -10,13 +10,7 @@
     margin-bottom: 20px;
 }
 
-.custom-button {
-    border: none;
-    background-color: var(--vermelho-destaque);
-    color: white;
-    height: 40px;
-    border-radius: 20px;
-}
+
 
 .custom-container-flex {
     display: flex;

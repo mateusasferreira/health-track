@@ -6,6 +6,11 @@
 
 }
 
+ul, li {
+    list-style: none;
+    
+}
+
 .app-header {
     padding: 30px;
     width: 100vw;
@@ -17,4 +22,36 @@
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+    justify-content: center;
+}
+
+.menu-item {
+    background-color: var(--bg-cinza);
+    border-radius: 5px;
+    
+    box-shadow: var(--shadow);
+    height: 100px;
+    max-width: 100px;
+    width: calc(33.333% - 4px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+}
+
+.custom-button {
+    border: none;
+    background-color: var(--vermelho-destaque);
+    color: white;
+    height: 40px;
+    border-radius: 20px;
 }
