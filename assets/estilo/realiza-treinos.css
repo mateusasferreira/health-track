@@ -1,0 +1,34 @@
+.container {
+    max-width: 768px;
+}
+
+.exercicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-cinza);
+    gap: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.exercicio i {
+   font-size: 2rem;
+    opacity: .7;
+    margin-left: 10px;
+}
+
+.exercicio p {
+    font-weight: bold;
+}
+
+.exercicio.realizado {
+    opacity: .7;
+
+}
+
+
+.exercicio.realizado i {
+    color: var(--verde-destaque);
+    opacity: 1;
+}
