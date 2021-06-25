@@ -1,0 +1,9 @@
+.cadastro-treinos {
+    background-color: var(--bg-cinza);
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+}
+
+.container {
+    max-width: 600px;
+}

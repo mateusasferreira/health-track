@@ -54,4 +54,14 @@ ul, li {
     color: white;
     height: 40px;
     border-radius: 20px;
+    font-weight: bold;
+}
+
+.custom-button-light {
+    background-color: white;
+    border: solid 2px var(--vermelho-destaque);
+    color: var(--vermelho-destaque);
+    font-weight: bold;
+    height: 40px;
+    border-radius: 20px;
 }
