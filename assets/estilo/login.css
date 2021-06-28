@@ -10,19 +10,17 @@
     margin-bottom: 20px;
 }
 
-
-
-.custom-container-flex {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    margin-top: 50px;
+    margin: 50px auto;
 }
 
 @media screen and (min-width: 1025px) {
-    .custom-container-flex {
+    .container {
         flex-direction: row;
        
         align-items: baseline;
