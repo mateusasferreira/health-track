@@ -63,12 +63,13 @@
                 <div class="card-dados">
                   <span class="card-dados--titulo">10250</span>
                   <span class="card-dados--descricao">Calorias consumidas</span>
+                  
                 </div>
                 <div class="card-dados">
                   <span class="card-dados--titulo">-12%</span>
                   <span class="card-dados--descricao">Evolução do IMC</span>
                 </div>
-                <section class="card-dados col-md-4">
+                <section class="card-dados ">
                   <img src="./assets/images/trophy.png" alt="troféu" />
                   <span class="card-nivel--mensagem"></span>
                   <div class="progress">
@@ -84,7 +85,66 @@
                 </section>
               </section>
             </div>
-            <div class="row">
+            <div class="row mt-4">
+              
+              <div class="container col-md-6">
+                <h4 class="my-3">Histórico de Dados</h4>
+                <div class="input-group my-3">
+                  <input type="text" class="form-control" placeholder="Novo peso" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-primary" type="button" id="button-addon2">Adicionar</button>
+                </div>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Data</th>
+                      <th scope="col">Peso</th>
+                      <th scope="col">IMC</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">01/06/2021</th>
+                      <td scope="col">75kg</td>
+                      <td scope="col">23.14</td>
+                    </tr>
+                    <tr>
+                      <th scope="col">01/05/2021</th>
+                      <td scope="col">78kg</td>
+                      <td scope="col">24.07</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="container col-md-6">
+                <h4 class="my-3">Histórico de Treinos</h4>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Data</th>
+                      <th scope="col">Treino</th>
+                      <th scope="col">Porcentagem completa</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">01/06/2021</th>
+                      <td scope="col">Treino 1</td>
+                      <td scope="col">70%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">30/05/2021</th>
+                      <td scope="col">Treino 2</td>
+                      <td scope="col">100%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">30/05/2021</th>
+                      <td scope="col">Treino 3</td>
+                      <td scope="col">80%%</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
               
             </div>
           </div>
