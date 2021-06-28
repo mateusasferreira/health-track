@@ -8,3 +8,7 @@
     box-shadow: var(--shadow);
     padding: 5px;
 }
+
+.bi:hover {
+    cursor: pointer;
+}

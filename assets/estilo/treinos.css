@@ -7,3 +7,18 @@
 .container {
     max-width: 600px;
 }
+
+.treino {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-cinza);
+    gap: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.treino p {
+    font-weight: bold;
+    font-size: 1.2rem;
+}

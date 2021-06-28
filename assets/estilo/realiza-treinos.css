@@ -18,6 +18,10 @@
     margin-left: 10px;
 }
 
+.exercicio i:hover {
+    cursor: pointer;
+}
+
 .exercicio p {
     font-weight: bold;
 }
