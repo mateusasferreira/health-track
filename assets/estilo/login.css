@@ -6,6 +6,12 @@
     flex-grow: 1;
 }
 
+.custom-form-title {
+    font-family: var(--fonte-padrao);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
 .form-group {
     margin-bottom: 20px;
 }
@@ -19,7 +25,7 @@
     margin: 50px auto;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
     .container {
         flex-direction: row;
        

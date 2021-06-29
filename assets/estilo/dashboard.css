@@ -9,6 +9,7 @@
 .menu-item {
     background-color: var(--bg-cinza);
     border-radius: 5px;
+    font-family: var(--fonte-padrao);
     margin-left: 5px;
     box-shadow: var(--shadow);
     height: 100px;
@@ -36,13 +37,11 @@
     font-weight: bold;
 }
 
-
 .dados-usuario {
     height: 100vh;
 }
 
 .container-dados {
-    /* height: 350px; */
     display: flex;
     gap: 10px;
     padding: 10px 20px;
@@ -54,7 +53,7 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    /* height: calc(50% - 5px); */
+    font-family: 'Poppins', sans-serif;;
     background-color: var(--bg-cinza);
     padding: 10px;
     justify-content: space-around;
@@ -68,11 +67,13 @@
     color: var(--verde-destaque);
     font-size: 1.5rem;
     font-weight: bold;
+    font-family: var(--fonte-padrao);
 }
 
 .card-dados--descricao {
     font-size: 1rem;
     font-weight: bold;
+    font-family: var(--fonte-padrao);
 }
 
 
@@ -100,6 +101,11 @@
     margin-top: 1em;
 }
 
+.titulo-tabela {
+    font-family: var(--fonte-padrao);
+    font-weight: 600;
+}
+
 .btn-primary {
     background-color: var(--vermelho-destaque);
     border: none;
@@ -109,8 +115,6 @@
     background-color: var(--vermelho-destaque);
     opacity: .7;
 }
-
-
 
 @media screen and (min-width: 768px) {
     .menu {
